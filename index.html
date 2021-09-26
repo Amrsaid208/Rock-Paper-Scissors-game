@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="overlay hide"></div>
+<main>
+  <div class="cont1">
+    <div class="left">
+  
+      <h1> Rock <br> Paper <br> Scissors</h1>
+    </div>
+    <div class="right">
+
+      <div class="myscore">
+        <h2>Your Score</h2>
+        <h3>0</h3>
+      </div>
+      <div class="pcscore">
+        <h2>Pc Score</h2>
+        <h3>0</h3>
+      </div>
+    </div>
+  </div>
+  <div class="choose">
+    <div class="rock" data="rock"><img src="images/icon-rock.svg" alt="Rock"></div>
+    <div class="paper" data="paper"><img src="images/icon-paper.svg" alt="Paper"></div>
+    <div class="sci" data="sci"><img src="images/icon-sci.svg" alt="Scissors"></div>
+  </div>
+  <div class="result  hide">
+    <div class="rig">
+      <h2>You Picked</h2>
+    <div class="selc-1"></div>
+    </div>
+    <div class="middle">
+      <h2></h2>
+      <button class="playAgain">play again</button>
+    </div>
+    <div class="lef">
+      <h2>The House Picked</h2>
+    <div class="selc-2"></div>
+    </div>
+  </div>
+</main>
+
+  <button class="rules">Rules</button>
+
+  <div class="rul hide">
+    <div class="rl">
+    <h2>Rules</h2>
+      <img class="cross" src="images/icon-close.svg" alt="">
+    </div>
+    <img src="images/image-rules.svg" alt="rules"></div>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
